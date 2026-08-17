@@ -1,0 +1,3 @@
+# 新規性レポート
+
+Repository Catalogが利用可能かを確認し、Qiita全体をDateTimeFormatter、YYYY、week-based-year、週基準年で検索した。該当する既存記事は確認できなかった。既存のBigDecimal、Stream、Optional題材とは異なり、本ラボは日付パターン記号の意味と年末境界の観測契約を扱う。
