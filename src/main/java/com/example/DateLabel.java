@@ -5,7 +5,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
 public class DateLabel {
-    private final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("YYYY-MM-dd", Locale.US);
+    private final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("uuuu-MM-dd", Locale.US);
 
     public String label(LocalDate date) {
         return formatter.format(date);
